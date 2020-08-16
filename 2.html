@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>2.HTML</title>
+
+
+    <style>
+        body {
+            background-image: linear-gradient(120deg, yellowgreen, orange);
+        }
+
+        div {
+            font-style: italic;
+            font-size: 28px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <div id="container" style="height: 100vh; display: flex; align-items: center;justify-content: center;">
+
+
+
+        <div id="form" style="display: flex; flex-direction: column; ">
+
+            <div>USERNAME:</div>
+
+            <input type="text" name="" id="user" style="border-radius: 20px; " placeholder="USERNAME" minlength="3">
+
+            <div>PASSWORD:</div>
+            <input type="text" name="form-control" id="pass" style="border-radius: 20px; " placeholder="PASSWORD">
+
+            <div>EMAIL:</div>
+            <input type="text" name="" id="mail" pattern="[A-Za-z0-9]+@[.]" style="border-radius: 20px; "
+                placeholder="EMAIL">
+
+            <div style="visibility: hidden;">h</div>
+
+            <div><input type="radio" style="zoom: 1.5;"> keep me signed in</div>
+
+            <button class="btn btn-info" onclick="read();" id="submit">sbumit</button>
+            <div style="visibility: hidden;">h</div>
+            <button class="btn btn-info" onclick="read();" id="submitt">Display</button>
+
+            <div id="displayblock" style="padding: 20px;">
+
+                <div id="displaydetyails" style="visibility: hidden; border: 2px solid black;">
+
+                    <div style="background-color: chartreuse;" id="name">a</div>
+                    <div style="background-color: chartreuse;" id="pasw">b</div>
+                    <div style="background-color: chartreuse;" id="emai">c</div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <script src="2.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- https://forms.gle/UxEF6ZLo6rkG5UmS6 -->
